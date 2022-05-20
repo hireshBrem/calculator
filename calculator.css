@@ -1,0 +1,27 @@
+*{
+    background-color: slateblue;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    color: cornsilk;
+    font-weight: bold;
+}
+
+button{
+    margin: 10px;
+}
+
+#buttons {
+    margin: 10px;
+    padding: 100%;
+}
+
+#calculator{
+    background-color: aliceblue;
+    width: 35%;
+}
+
+#calc-title{ 
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+}

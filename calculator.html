@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="/calculator.css">
+</head>
+<body>
+    <h1 id ="calc-title">Calculator</h1>
+    <div id="calculator">
+        <div id="display">
+            <h4 id="display-el"></h4>
+        </div>
+        <button id="clear-btn" class="buttons" onclick="clearDisplay()">Clear</button>
+        <br>
+        <button id="7" class="buttons" onclick="newCalc(); display(7)">7</button>
+        <button id="8" class="buttons" onclick="newCalc(); display(8)">8</button>
+        <button id="9" class="buttons" onclick="newCalc(); display(9)">9</button>
+        <button class="buttons" id="multiply-btn" onclick="display('x')">x</button>
+        <br>
+        <button id="4" class="buttons" onclick="newCalc(); display(4)">4</button>
+        <button id="5" class="buttons" onclick="newCalc(); display(5)">5</button>
+        <button id="6" class="buttons" onclick="newCalc(); display(6)">6</button>
+        <button class="buttons" id="subtract-btn" onclick="display('-')">-</button>
+        <br>
+        <button id="1" class="buttons" onclick="newCalc(); display(1)">1</button>
+        <button id="2" class="buttons" onclick="newCalc(); display(2)">2</button>
+        <button id="3" class="buttons" onclick="newCalc(); display(3)">3</button>
+        <button class="buttons" id="addition-btn" onclick="display('+')">+</button>
+        <br>
+        <button id="0" class="buttons" onclick="newCalc(); display(0)">0</button>
+        <button class="buttons" id="point-btn">.</button>
+        <button class="buttons" id="equals-btn" onclick="calculate()">=</button>
+        <button class="buttons" id="divide-btn" onclick="display('÷')">÷</button>
+    </div>
+    <script src="/calculator.js"></script>
+</body>
+</html>
